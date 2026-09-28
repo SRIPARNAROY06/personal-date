@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#030914">
+  <meta name="description" content="A private investment opportunity for Krish.">
+  <title>Private Placement | For Krish</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=IBM+Plex+Mono:wght@400;600&family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="market-grid" aria-hidden="true"></div>
+  <div class="web-corner web-corner-left" aria-hidden="true"></div>
+  <div class="web-corner web-corner-right" aria-hidden="true"></div>
+  <canvas id="confetti" aria-hidden="true"></canvas>
+  <div id="heart-layer" class="heart-layer" aria-hidden="true"></div>
+
+  <section id="loader" class="loader" aria-label="Preparing date request">
+    <div class="terminal">
+      <div class="terminal-bar">
+        <div class="window-controls" aria-hidden="true">
+          <span></span><span></span><span></span>
+        </div>
+        <span class="terminal-title">date_request.sh</span>
+        <span class="secure-label">PRIVATE</span>
+      </div>
+
+      <div class="terminal-body" role="status" aria-live="polite">
+        <p class="boot-title">INITIALIZING DATE REQUEST<span class="blink">_</span></p>
+        <div class="boot-lines" aria-hidden="true">
+          <p style="--delay: .20s"><span>›</span> Running compatibility analysis...</p>
+          <p style="--delay: .42s"><span>›</span> Calibrating superbike telemetry...</p>
+          <p style="--delay: .64s"><span>›</span> Checking Porsche dream index...</p>
+          <p style="--delay: .86s"><span>›</span> Consulting cat risk officer...</p>
+          <p style="--delay: 1.08s"><span>›</span> Detecting friendly web signals...</p>
+          <p style="--delay: 1.30s"><span>›</span> Software Engineer → Finance Guy</p>
+        </div>
+
+        <div class="compatibility" style="--delay: 1.52s">
+          <span>Compatibility</span>
+          <div class="progress-track"><span></span></div>
+          <strong>100%</strong>
+        </div>
+
+        <div class="boot-results" style="--delay: 2.05s">
+          <p>Risk assessment: <strong class="amber">HIGH</strong></p>
+          <p>Potential return: <strong>VERY HIGH</strong></p>
+          <p>Decision: <strong>PROCEED</strong></p>
+          <p class="ready">✓ Date request ready.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main id="app" class="app" hidden>
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker-track">
+        <span>KRISH + ME <b>▲ 100%</b></span>
+        <span>SUPERBIKE INDEX <b>FULL THROTTLE</b></span>
+        <span>PORSCHE FUTURES <b>911%</b></span>
+        <span>BETTA SENTIMENT <b>FIN-TASTIC</b></span>
+        <span>CAT RISK RATING <b>PAW-APPROVED</b></span>
+        <span>SPIDER-SENSE <b>DATE DETECTED</b></span>
+        <span>KRISH + ME <b>▲ 100%</b></span>
+        <span>SUPERBIKE INDEX <b>FULL THROTTLE</b></span>
+        <span>PORSCHE FUTURES <b>911%</b></span>
+        <span>BETTA SENTIMENT <b>FIN-TASTIC</b></span>
+        <span>CAT RISK RATING <b>PAW-APPROVED</b></span>
+        <span>SPIDER-SENSE <b>DATE DETECTED</b></span>
+      </div>
+    </div>
+
+    <section id="invitation" class="panel invitation" aria-labelledby="invite-title">
+      <div class="panel-topline">
+        <span class="eyebrow"><i></i> KRISH'S PRIVATE WATCHLIST</span>
+        <span class="for-krish">KRISH ONLY</span>
+      </div>
+
+      <div class="krish-world" aria-label="A few of Krish's favorite things">
+        <div class="speed-trail" aria-hidden="true"></div>
+        <span class="sunflower-detail" role="img" aria-label="A little sunflower">🌻</span>
+        <div class="interest-icon bike-icon" aria-hidden="true">🏍️</div>
+        <div class="interest-copy">
+          <span>HIGH-CONVICTION PICKS</span>
+          <strong>Bikes. Cats. Bettas. Mishti doi, phuchka, aar ektu adda.<br>And one friendly-neighborhood date.</strong>
+        </div>
+        <div class="interest-icon car-icon" aria-hidden="true">🏎️</div>
+        <div class="mini-pets" aria-hidden="true"><span>🐈</span><span>🐠</span></div>
+      </div>
+
+      <figure class="spider-feature">
+        <div class="comic-panels" aria-hidden="true">
+          <div class="comic-panel mask-picture">
+            <span class="hero-mask"><i></i><b></b></span>
+          </div>
+          <div class="comic-panel web-picture">
+            <span class="web-thread"></span>
+            <span class="spider-mark">🕷️</span>
+          </div>
+          <div class="comic-panel city-picture">
+            <span class="city-moon"></span>
+            <span class="swing-line"></span>
+            <span class="swinger">●</span>
+          </div>
+        </div>
+        <figcaption>
+          <span>SPIDER-SENSE REPORT 001</span>
+          <strong>Krish, a.k.a. Smartpants</strong>
+          <p>Friendly-neighborhood chemistry detected. Even Spider-Man would approve this date thesis.</p>
+        </figcaption>
+      </figure>
+
+      <div class="mini-chart" aria-hidden="true">
+        <svg viewBox="0 0 800 150" preserveAspectRatio="none">
+          <defs>
+            <linearGradient id="chart-fill" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="#2478e5" stop-opacity=".32"/>
+              <stop offset="1" stop-color="#2478e5" stop-opacity="0"/>
+            </linearGradient>
+          </defs>
+          <path class="chart-area" d="M0 128 L60 120 L110 125 L170 104 L230 111 L285 84 L350 91 L405 62 L470 70 L535 42 L600 50 L668 25 L735 35 L800 8 L800 150 L0 150 Z"/>
+          <path class="chart-line" d="M0 128 L60 120 L110 125 L170 104 L230 111 L285 84 L350 91 L405 62 L470 70 L535 42 L600 50 L668 25 L735 35 L800 8"/>
+        </svg>
+        <span class="chart-label">LIKELIHOOD OF A GREAT DATE</span>
+        <span class="chart-value">▲ 99.9%</span>
+      </div>
+
+      <div class="invite-copy">
+        <h1 id="invite-title">Hey Krish <span>👀</span></h1>
+        <p class="lede">A very important investment opportunity has crossed your desk.</p>
+        <p>After extensive research, unnecessary overthinking, and absolutely no peer review...</p>
+        <p>I’ve decided there’s one asset I’d really like to invest my time in. 👀</p>
+        <p class="you">You.</p>
+        <p>So here’s my proposal:</p>
+        <h2>Would you like to spend an entire day with me? <span>❤️</span></h2>
+        <p>Dinner is obviously part of the portfolio. Maybe coffee. Maybe a long adda. Maybe exploring the city together.</p>
+        <p>And hopefully a ridiculous amount of laughing.</p>
+        <p class="equation">Basically... <strong>You + Me + One Entire Day?</strong></p>
+      </div>
+
+      <dl class="terms" aria-label="Investment terms">
+        <div><dt>EXPECTED RETURN</dt><dd>Excellent</dd></div>
+        <div><dt>RISK LEVEL</dt><dd>Worth taking</dd></div>
+        <div><dt>TIME HORIZON</dt><dd>One entire day</dd></div>
+        <div><dt>TRANSPORT</dt><dd>Hete jawa jak?</dd></div>
+      </dl>
+
+      <div class="decision">
+        <p>Investment Decision Required:</p>
+        <div class="actions">
+          <button id="accept-button" class="button button-accept" type="button">
+            <span>ACCEPT</span> <span aria-hidden="true">❤️</span>
+          </button>
+          <button id="decline-button" class="button button-decline" type="button" aria-disabled="true">
+            <span class="decline-label">DECLINE</span> <span class="decline-emoji" aria-hidden="true">🙃</span>
+          </button>
+        </div>
+      </div>
+
+      <button id="thesis-toggle" class="thesis-toggle" type="button" aria-expanded="false" aria-controls="thesis">
+        View Investment Thesis <span aria-hidden="true">→</span>
+      </button>
+
+      <div id="thesis" class="thesis" hidden>
+        <p class="thesis-heading">INVESTMENT THESIS</p>
+        <dl>
+          <div><dt>Fundamental analysis</dt><dd>I like you.</dd></div>
+          <div><dt>Technical analysis</dt><dd>The charts look good. 📈</dd></div>
+          <div><dt>Cat analysis</dt><dd>Purr-fect match. 🐈</dd></div>
+          <div><dt>Betta analysis</dt><dd>Worth the fin-ancial risk. 🐠</dd></div>
+          <div><dt>Spider-sense analysis</dt><dd>Great chemistry detected. 🕸️</dd></div>
+          <div><dt>Risk analysis</dt><dd>Potentially catching feelings.</dd></div>
+          <div><dt>Time horizon</dt><dd>Long-term. 👀</dd></div>
+          <div><dt>Final recommendation</dt><dd>Let’s go on a date.</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <section id="approval" class="panel approval" aria-labelledby="approval-title" hidden>
+      <div class="approval-icon" aria-hidden="true">✓</div>
+      <p class="approval-kicker">ORDER EXECUTED SUCCESSFULLY</p>
+      <h1 id="approval-title">🎉 INVESTMENT APPROVED 🎉</h1>
+      <p class="hero-route" aria-label="Our date route">🏍️ <span>···</span> 🕸️ <span>···</span> 🏎️ <span>···</span> 🐈 <span>···</span> 🐠</p>
+
+      <div class="success-chart" aria-hidden="true">
+        <svg viewBox="0 0 640 150" preserveAspectRatio="none">
+          <path class="success-grid" d="M0 30 H640 M0 75 H640 M0 120 H640 M80 0 V150 M240 0 V150 M400 0 V150 M560 0 V150"/>
+          <path class="success-line" d="M0 128 C70 126 88 110 145 115 S220 88 270 94 S348 63 400 71 S475 42 520 48 S590 18 640 10"/>
+        </svg>
+        <span class="up-arrow">↗</span>
+      </div>
+
+      <div class="receipt">
+        <p class="receipt-title">DATE REQUEST</p>
+        <dl>
+          <div><dt>Status</dt><dd class="approved-value">APPROVED ❤️</dd></div>
+          <div><dt>Investor</dt><dd>Krish</dd></div>
+          <div><dt>Counterparty</dt><dd>Me</dd></div>
+          <div><dt>Duration</dt><dd>ENTIRE DAY</dd></div>
+          <div><dt>Dinner</dt><dd>MANDATORY 🍝</dd></div>
+          <div><dt>Expected ROI</dt><dd>VERY HIGH</dd></div>
+          <div><dt>Risk</dt><dd>Worth taking</dd></div>
+          <div><dt>Ride Mode</dt><dd>হেঁটে যাব, পাশাপাশি? 👀</dd></div>
+          <div><dt>Food Strategy</dt><dd>PHUCHKA + MISHTI DOI 😌</dd></div>
+          <div><dt>Market View</dt><dd>EXTREMELY BULLISH 📈</dd></div>
+          <div><dt>Exit Strategy</dt><dd>NONE</dd></div>
+        </dl>
+      </div>
+
+      <div class="approved-copy">
+        <h2>Congratulations.</h2>
+        <p>You’ve successfully invested in an entire day with me. 😌</p>
+        <p>Now comes the only important question:</p>
+        <p class="free-question">When are you free? 👀</p>
+
+        <div class="market-committee" aria-label="Date approval committee">
+          <div class="pet-advisor">
+            <span class="pet-emoji cat-advisor" aria-hidden="true">🐱</span>
+            <span><strong>Chief Risk Officer</strong><small>Paw-approved.</small></span>
+          </div>
+          <div class="pet-advisor">
+            <span class="pet-emoji fish-advisor" aria-hidden="true">🐠</span>
+            <span><strong>Betta Market Analyst</strong><small>Fin-ancially bullish.</small></span>
+          </div>
+        </div>
+
+        <form id="date-form" class="date-scheduler">
+          <p class="scheduler-kicker">DATE ALLOCATION</p>
+          <label for="date-choice">Choose our day</label>
+          <div class="quick-dates" aria-label="Suggested dates">
+            <button class="date-option" type="button" data-weekday="6" data-week-offset="0">
+              <span>THIS SATURDAY</span><strong></strong>
+            </button>
+            <button class="date-option" type="button" data-weekday="0" data-week-offset="0">
+              <span>THIS SUNDAY</span><strong></strong>
+            </button>
+            <button class="date-option" type="button" data-weekday="6" data-week-offset="1">
+              <span>NEXT SATURDAY</span><strong></strong>
+            </button>
+          </div>
+          <input id="date-choice" name="date" type="date" required>
+          <button id="confirm-date" class="schedule-button" type="submit" disabled>LOCK IN THIS DATE ❤️</button>
+          <p class="scheduler-note">No spreadsheets required. I checked.</p>
+        </form>
+
+        <div id="schedule-result" class="schedule-result" role="status" aria-live="polite" hidden>
+          <span class="schedule-check" aria-hidden="true">✓</span>
+          <p>DATE POSITION SECURED</p>
+          <strong id="selected-date"></strong>
+          <small id="delivery-status">Sending your answer securely...</small>
+          <div class="schedule-actions">
+            <button id="share-date" type="button">SHARE MY PICK</button>
+            <button id="add-calendar" type="button">ADD TO CALENDAR</button>
+          </div>
+        </div>
+
+        <p class="final-line">Looking forward to maximizing our returns in memories. ❤️</p>
+      </div>
+    </section>
+  </main>
+
+  <div id="decline-toast" class="decline-toast" role="status" aria-live="polite"></div>
+</body>
+</html>
